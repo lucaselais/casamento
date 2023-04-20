@@ -176,6 +176,10 @@ main {
 }
 
 /*-------------------------------------------------*/
+.presentes ul {
+    list-style-image: url('assets/img/icon-list.svg');
+    list-style: 200px;
+}
 .presentes h1 {
     font-size: 1.5rem;
     letter-spacing: 5px;
@@ -195,10 +199,6 @@ main {
 .presentes li {
     color:#feecd6;
     margin-top: 5px;
-}
-
-.presentes li::marker {
-    content: "♥ ";
 }
 /*-------------------------------------------------*/
 
